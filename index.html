@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" href="img/icon.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+    <link rel="stylesheet" href="css/general.css">
+    <link rel="stylesheet" href="css/queriss.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Roberto Riđan</title>
+</head>
+<body>
+    
+    <div class="menuHero-container">
+        <div class="container">
+            <div class="menu-container">
+                <a class="menu-logo" href="#"><i class="fa-solid fa-code"></i>Roberto Riđan</a>
+
+                <ul class="menu-list">
+                    <li><a href="https://github.com/RobertoRidjan"><i class="fa-brands fa-github"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/roberto-ri%C4%91an-029559245"><i class="fa-brands fa-linkedin"></i></a></li>
+                    <li><a href="https://www.facebook.com/profile.php?id=100080502342845"><i class="fa-brands fa-facebook"></i></a></li>
+                    <li class="menu-email"><p>robertoridjanbusiness@gmail.com</p></li>
+                </ul>
+
+                <i class="fa-solid fa-bars menu-hamburger" onclick="openMenu()"></i>
+                <i class="fa-solid fa-xmark menu-xmark" onclick="closeMenu()"></i>
+            </div>
+
+            <div class="hero-container">
+                <h1 class="hero-title">Hello, I'm Roberto<br>Frontend Developer</h1>
+                <p class="hero-description">I like to craft solid and scalable frontend products with great user experiences.</p>
+
+                <div class="emailContainer" onclick="copyEmail('emailText')">
+                    <i class="fa-solid fa-envelope"></i>
+                    <span id="emailText">robertoridjanbusiness@gmail.com</span>
+                </div> 
+            </div>
+        </div>
+    </div>
+
+    <div class="mywork-container">
+        <div class="container">
+            <h1 class="mywork-title">My work</h1>
+            <div class="mywork-box">
+                <div class="mywork-box-flex">
+                    <div class="mywork-item mywork-item-first">
+                        <a href="https://robertoridjan.github.io/shop/">
+                            <div class="mywork-text">
+                                <h1>E-commerce<br>Project</h1>
+                            </div>
+
+                            <div class="mywork-item-img">
+                                <img class="mywork-item_img" src="img/shop.png" alt="">
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class="mywork-item box-2">
+                        <a href="https://robertoridjan.github.io/nft/">
+                            <div class="mywork-text">
+                                <h1>NFT<br>Collection</h1>
+                            </div>
+
+                            <div class="mywork-item-img">
+                                <img class="mywork-item_img" src="img/nft.png" alt="">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="mywork-item box-3">
+                    <a href="https://robertoridjan.github.io/twitter/">
+                        <div class="mywork-text">
+                            <h1>Twitter<br>Clone</h1>
+                        </div>
+
+                        <div class="mywork-item-img">
+                            <img class="mywork-item_img" src="img/twitter.png" alt="">
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- <div class="contact-container">
+        <div class="smallContainer">
+            <h1>Send me a message</h1>
+
+            <div class="contact-nameEmail-box">
+                <div class="contact-name">
+                    <input type="text" placeholder="Name">
+                </div>
+
+                <div class="contact-email">
+                    <input type="email" placeholder="Email">
+                </div>
+            </div>
+
+            <div class="contact-message-box">
+                <textarea placeholder="Message"></textarea>
+            </div>
+
+            <button class="contact-button">Submit<i class="fa-solid fa-arrow-right-long"></i></button>
+        </div>
+    </div> -->
+    
+    <footer class="footer-container">
+        <div class="container">
+            <div class="footer-box">
+                <h1>&copy; Roberto Riđan 2022</h1>
+                <ul>
+                    <li><a href="#"><i class="fa-brands fa-github"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

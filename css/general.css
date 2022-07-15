@@ -1,0 +1,43 @@
+:root {
+    --white: #fff;
+    --blue: #2e81ff;
+    --smallText: #c3cad5;
+    --background: #22272f;
+    --border: #5d6c83;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: var(--background);
+    line-height: 1;
+}
+
+::selection {
+    background-color: var(--blue);
+    color: #fff;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
